@@ -15,10 +15,24 @@ const imageArray = [
   "./assets/14.jpeg"
 ];
 
-const randomNumber = Math.floor(Math.random() * imageArray.length);
+const randomImage = Math.floor(Math.random() * imageArray.length);
 
-document.getElementById("main-image").src = imageArray[randomNumber];
+document.getElementById("main-image").src = imageArray[randomImage];
 
+const colorArray = [
+  "rgb(123, 211, 234)",
+  "rgb(161, 238, 189)",
+  "rgb(246, 247, 196)",
+  "rgb(246, 214, 214)"
+];
+
+const randomBackground = Math.floor(Math.random() * colorArray.length);
+
+document.body.style.background = colorArray[randomBackground];
+
+// in case a random rgb (0~255) color is needed, use function below
+
+/*
 function randomColor() {
   const r = Math.floor(Math.random() * 256);
   const g = Math.floor(Math.random() * 256);
@@ -30,3 +44,4 @@ function randomColor() {
 }
 
 randomColor();
+*/

@@ -1,14 +1,18 @@
-img {
-  display: flex;
-  height: 500px;
-  width: 500px;
-  object-fit: cover;
+body {
+  overflow: hidden;
 }
 
-body {
+main {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 100vh;
+  height: 98vh;
   margin: 0;
+  position: relative; /* Add this line */
+}
+
+.main-image {
+  height: 300px;
+  width: 300px;
+  object-fit: cover;
 }
