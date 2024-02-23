@@ -1,8 +1,8 @@
-div {
+img {
   display: flex;
   height: 500px;
   width: 500px;
-  background-color: black;
+  object-fit: cover;
 }
 
 body {
