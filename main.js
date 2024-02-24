@@ -1,5 +1,9 @@
 const imageArray = [
-  "./assets/1.jpeg",
+  "./assets/1.webp",
+  "./assets/2.webp",
+  "./assets/3.webp",
+  "./assets/4.webp"
+/*  
   "./assets/2.jpeg",
   "./assets/3.jpeg",
   "./assets/4.jpeg",
@@ -12,7 +16,8 @@ const imageArray = [
   "./assets/11.jpeg",
   "./assets/12.jpeg",
   "./assets/13.jpeg",
-  "./assets/14.jpeg"
+  "./assets/14.jpeg"  
+*/
 ];
 
 const randomImage = Math.floor(Math.random() * imageArray.length);
